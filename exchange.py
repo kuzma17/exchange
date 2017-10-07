@@ -1,7 +1,7 @@
 import MySQLdb
 import csv
 
-day_ex = 5
+day_ex = 15
 file_csv = '/tmp/file.csv'
 db = MySQLdb.connect(host="127.0.0.1", user="root", passwd="170270", db="sint_odessa", charset='utf8', use_unicode=False)
 cursor = db.cursor()
